@@ -1,0 +1,7 @@
+*.pdf
+*.wav
+*.png
+*.DS_Store
+*.vscode
+*qt_for_python
+*__pycache

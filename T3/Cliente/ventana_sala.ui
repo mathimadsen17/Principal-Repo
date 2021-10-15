@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>VentanaSala</class>
+ <widget class="QMainWindow" name="VentanaSala">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>906</width>
+    <height>505</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>-1</x>
+      <y>-5</y>
+      <width>911</width>
+      <height>491</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: qradialgradient(spread:pad, cx:0.490148, cy:0.5, radius:0.8, fx:0.5, fy:0.5, stop:0 rgba(0, 202, 203, 255), stop:1 rgba(255, 255, 255, 255));</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>80</y>
+      <width>291</width>
+      <height>321</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);
+background-color: qlineargradient(spread:reflect, x1:0, y1:0, x2:1, y2:0, stop:0.044335 rgba(169, 244, 240, 255), stop:1 rgba(255, 255, 255, 255));</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>540</x>
+      <y>80</y>
+      <width>291</width>
+      <height>321</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);
+background-color: qlineargradient(spread:reflect, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(255, 255, 255, 255), stop:1 rgba(169, 244, 240, 255));</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>110</x>
+      <y>100</y>
+      <width>231</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Marker Felt</family>
+      <pointsize>25</pointsize>
+      <weight>50</weight>
+      <italic>true</italic>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: italic 25pt &quot;Marker Felt&quot;;</string>
+    </property>
+    <property name="text">
+     <string>Jugadores en partida:</string>
+    </property>
+   </widget>
+   <widget class="QWidget" name="verticalLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>110</x>
+      <y>160</y>
+      <width>221</width>
+      <height>211</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <widget class="QLabel" name="jugador_1">
+       <property name="styleSheet">
+        <string notr="true">font: italic 18pt &quot;Marker Felt&quot;;</string>
+       </property>
+       <property name="text">
+        <string>1. Jugador1</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="jugador_2">
+       <property name="styleSheet">
+        <string notr="true">font: italic 18pt &quot;Marker Felt&quot;;</string>
+       </property>
+       <property name="text">
+        <string>2. Jugador2</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="jugador_3">
+       <property name="styleSheet">
+        <string notr="true">font: italic 18pt &quot;Marker Felt&quot;;</string>
+       </property>
+       <property name="text">
+        <string>3. Jugador3</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="jugador_4">
+       <property name="styleSheet">
+        <string notr="true">font: italic 18pt &quot;Marker Felt&quot;;
+</string>
+       </property>
+       <property name="text">
+        <string>4. Jugador4</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QLabel" name="label_5">
+    <property name="geometry">
+     <rect>
+      <x>600</x>
+      <y>100</y>
+      <width>181</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Marker Felt</family>
+      <pointsize>25</pointsize>
+      <weight>50</weight>
+      <italic>true</italic>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: italic 25pt &quot;Marker Felt&quot;;</string>
+    </property>
+    <property name="text">
+     <string>Vota por un mapa</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_6">
+    <property name="geometry">
+     <rect>
+      <x>560</x>
+      <y>170</y>
+      <width>101</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>sprites/Mapas/Mapa ING.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_7">
+    <property name="geometry">
+     <rect>
+      <x>560</x>
+      <y>280</y>
+      <width>101</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>sprites/Mapas/Mapa SJ.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="checkBox_ing">
+    <property name="geometry">
+     <rect>
+      <x>670</x>
+      <y>200</y>
+      <width>111</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: italic 18pt &quot;Marker Felt&quot;;</string>
+    </property>
+    <property name="text">
+     <string>Ingeniería</string>
+    </property>
+    <attribute name="buttonGroup">
+     <string notr="true">buttonGroup</string>
+    </attribute>
+   </widget>
+   <widget class="QCheckBox" name="checkBox_sj">
+    <property name="geometry">
+     <rect>
+      <x>670</x>
+      <y>300</y>
+      <width>111</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: italic 18pt &quot;Marker Felt&quot;;</string>
+    </property>
+    <property name="text">
+     <string>San Joaquin</string>
+    </property>
+    <attribute name="buttonGroup">
+     <string notr="true">buttonGroup</string>
+    </attribute>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+ <buttongroups>
+  <buttongroup name="buttonGroup"/>
+ </buttongroups>
+</ui>
